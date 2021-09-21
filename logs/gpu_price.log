@@ -1,0 +1,128 @@
+2021-09-06 23:11:40,567 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_elements'
+2021-09-06 23:11:40,567 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_elements'
+2021-09-06 23:14:24,286 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_elements'
+2021-09-06 23:14:24,286 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_elements'
+2021-09-06 23:17:28,976 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-06 23:17:28,976 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-06 23:21:36,923 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-06 23:21:36,923 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-06 23:21:56,004 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-06 23:21:56,004 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:08:16,485 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:08:16,485 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:08:40,354 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : setLive() missing 1 required positional argument: 'flag'
+2021-09-12 02:08:40,354 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : setLive() missing 1 required positional argument: 'flag'
+2021-09-12 02:08:50,926 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:08:50,926 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:11:13,743 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:11:13,743 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:11:35,132 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:11:35,132 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:15:08,087 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:15:08,087 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:16:21,509 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:16:21,509 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:16:34,634 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:16:34,634 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:16:51,868 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:16:51,868 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'Selenium' object has no attribute 'find_element'
+2021-09-12 02:24:22,469 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'WebElement' object is not subscriptable
+2021-09-12 02:24:22,469 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'WebElement' object is not subscriptable
+2021-09-12 02:45:06,241 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'get_property'
+2021-09-12 02:45:06,241 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'get_property'
+2021-09-12 03:10:16,413 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : descriptor 'isspace' for 'str' objects doesn't apply to a 'NoneType' object
+2021-09-12 03:10:16,413 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : descriptor 'isspace' for 'str' objects doesn't apply to a 'NoneType' object
+2021-09-13 01:43:51,881 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'text'
+2021-09-13 01:43:51,881 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'text'
+2021-09-13 01:47:34,729 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'text'
+2021-09-13 01:47:34,729 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'text'
+2021-09-13 01:49:38,428 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'get_property'
+2021-09-13 01:49:38,428 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'get_property'
+2021-09-13 01:54:30,860 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.flexOrder.td"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-13 01:54:30,860 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.flexOrder.td"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-13 01:57:46,397 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":".flexOrder td"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-13 01:57:46,397 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":".flexOrder td"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-13 01:58:10,371 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":".flexOrder td"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-13 01:58:10,371 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":".flexOrder td"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-13 02:03:04,708 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'find_elements_by_class_name'
+2021-09-13 02:03:04,708 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'find_elements_by_class_name'
+2021-09-13 02:07:09,691 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'WebElement' object has no attribute 'title'
+2021-09-13 02:07:09,691 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'WebElement' object has no attribute 'title'
+2021-09-13 02:10:06,360 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":".flexOrder td"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-13 02:10:06,360 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":".flexOrder td"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-13 02:14:28,038 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'find_elements_by_class_name'
+2021-09-13 02:14:28,038 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'find_elements_by_class_name'
+2021-09-14 20:19:44,948 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'find_elements_by_class_name'
+2021-09-14 20:19:44,948 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'find_elements_by_class_name'
+2021-09-14 20:26:55,825 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":".flexOrder th"}
+  (Session info: chrome=93.0.4577.82)
+
+2021-09-14 20:26:55,825 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":".flexOrder th"}
+  (Session info: chrome=93.0.4577.82)
+
+2021-09-14 20:28:07,284 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":"flexOrder.td"}
+  (Session info: chrome=93.0.4577.82)
+
+2021-09-14 20:28:07,284 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: no such element: Unable to locate element: {"method":"css selector","selector":"flexOrder.td"}
+  (Session info: chrome=93.0.4577.82)
+
+2021-09-14 20:33:15,868 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'WebElement' object is not iterable
+2021-09-14 20:33:15,868 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'WebElement' object is not iterable
+2021-09-14 20:33:55,467 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'WebElement' object is not iterable
+2021-09-14 20:33:55,467 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'WebElement' object is not iterable
+2021-09-14 20:35:06,946 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'text'
+2021-09-14 20:35:06,946 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'list' object has no attribute 'text'
+2021-09-14 20:35:31,493 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : list index out of range
+2021-09-14 20:35:31,493 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : list index out of range
+2021-09-14 21:31:09,053 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: chrome not reachable
+  (Session info: chrome=93.0.4577.82)
+
+2021-09-14 21:31:09,053 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: chrome not reachable
+  (Session info: chrome=93.0.4577.82)
+
+2021-09-14 21:36:09,929 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: chrome not reachable
+  (Session info: chrome=93.0.4577.82)
+
+2021-09-14 21:36:09,929 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: chrome not reachable
+  (Session info: chrome=93.0.4577.82)
+
+2021-09-14 21:36:56,234 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: 
+
+2021-09-14 21:36:56,234 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: 
+
+2021-09-14 21:40:38,735 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : add_cookie() missing 1 required positional argument: 'cookie_dict'
+2021-09-14 21:40:38,735 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : add_cookie() missing 1 required positional argument: 'cookie_dict'
+2021-09-14 21:41:09,615 - gpu_price_logger - INFO - Somethingelse is wrong : Message: invalid argument
+  (Session info: chrome=93.0.4577.82)
+
+2021-09-14 21:41:09,615 - gpu_price_logger - INFO - Somethingelse is wrong : Message: invalid argument
+  (Session info: chrome=93.0.4577.82)
+
+2021-09-14 21:42:14,676 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: 
+
+2021-09-14 21:42:14,676 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : Message: 
+
+2021-09-14 23:12:59,575 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : list index out of range
+2021-09-14 23:12:59,575 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : list index out of range
+2021-09-14 23:14:14,902 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : list index out of range
+2021-09-14 23:14:14,902 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : list index out of range
+2021-09-14 23:43:36,798 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'dict' object has no attribute 'text'
+2021-09-14 23:43:36,798 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'dict' object has no attribute 'text'
+2021-09-14 23:48:23,845 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'dict' object has no attribute 'append'
+2021-09-14 23:48:23,845 - gpu_price_logger - INFO - Somethingelse is wrong while getting the page : 'dict' object has no attribute 'append'
