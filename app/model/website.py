@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from app.helper.log_helper import Logger
+from app.helper.logger import Logger
 from app.model.driver import Selenium
 from app import config
 

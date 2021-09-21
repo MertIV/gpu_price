@@ -22,9 +22,7 @@ class Minerstat(Website):
         all_card = []
         for element in elements:
             order = self.get_children_elements(element,By.CLASS_NAME,self.config['Minerstat']['CLASS_NAME']['ORDER'])
-            order = order[0]
             name = self.get_children_elements(element,By.CLASS_NAME,self.config['Minerstat']['CLASS_NAME']['GPU_NAME'])
-            name = name[0]
             coins = self.get_children_elements(element,By.CLASS_NAME,self.config['Minerstat']['CLASS_NAME']['COIN'])
             if len(coins)==0:
                 continue
@@ -38,8 +36,8 @@ class Minerstat(Website):
                 profits.append(pool)
 
             card = {
-                    'order': order.text,
-                    'name' : name.text.upper() }
+                    'order': order[0].text,
+                    'name' : name[0].text.upper() }
 
             card['profits'] = profits
             all_card.append(card)

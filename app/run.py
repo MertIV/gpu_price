@@ -1,6 +1,6 @@
-from model.grossbill import Grossbill
-from model.minerstat import Minerstat
-from model.kryptex import Kryptex
+from website.grossbill import Grossbill
+from website.minerstat import Minerstat
+from website.kryptex import Kryptex
 import pandas
 
 # minerstat = Minerstat()
