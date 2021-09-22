@@ -2,3 +2,16 @@
 /gpu_price.egg-info
 /venv
 /__pycache__
+app.db
+app/__pycache__/__init__.cpython-39.pyc
+app/helper/__pycache__/logger.cpython-39.pyc
+app/model/__pycache__/db.cpython-39.pyc
+app/model/__pycache__/driver.cpython-39.pyc
+app/model/__pycache__/website.cpython-39.pyc
+app/website/__pycache__/grossbill.cpython-39.pyc
+app/website/__pycache__/kryptex.cpython-39.pyc
+app/website/__pycache__/minerstat.cpython-39.pyc
+.gitignore
+app/model/__pycache__/driver.cpython-39.pyc
+app/model/__pycache__/website.cpython-39.pyc
+app/__pycache__/__init__.cpython-39.pyc

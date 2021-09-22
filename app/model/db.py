@@ -1,12 +1,12 @@
-from sqlalchemy import text
-from sqlalchemy import create_engine
-from sqlalchemy import Column, Integer, String, Float
-from sqlalchemy.orm import declarative_base, relationship
+from sqlalchemy import Column, Integer, String, MetaData
+from sqlalchemy.orm import declarative_base, relationship, Session
 from sqlalchemy.sql.schema import ForeignKey
 from sqlalchemy.sql.sqltypes import Float
 from app import db
+import contextlib
 
 Base = declarative_base()
+meta = MetaData(db)
 
 def execute(*args,**kwargs):
     with db.connect() as conn:
@@ -16,14 +16,28 @@ def execute(*args,**kwargs):
     
     return result
 
+def create_session():
+    session = Session(db, future=True)
+    return session
+
+def truncate_tables():
+    with contextlib.closing(db.connect()) as con:
+        trans = con.begin()
+        for table in reversed(meta.sorted_tables):
+            con.execute(table.delete())
+        trans.commit()
+
+def drop_tables():
+    Base.metadata.drop_all(db)
+
 class GPU(Base):
-    __tablename__ = 'graphic_cards'
-    id = Column(Integer, primary_key=True)
+    __tablename__ ='graphic_cards'
+    id = Column(Integer, primary_key=True, index=True)
     name = Column(String)
 
     incomes = relationship("Income",back_populates='graphic_card')
     hashrates = relationship("Hashrate", back_populates='graphic_card')
-    deals = relationship("Market",back_populates='graphic_card')
+    deals = relationship("Deal",back_populates='graphic_card')
 
     def __repr__(self):
         return "<Graphics Card(id='%s', name='%s'')>" % (
