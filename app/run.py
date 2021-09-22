@@ -1,14 +1,15 @@
 from website.grossbill import Grossbill
 from website.minerstat import Minerstat
 from website.kryptex import Kryptex
-import pandas
+
+from app.model.db import drop_tables
 
 # minerstat = Minerstat()
-# element = minerstat.get_daily_returns()
-# print(element)
+# minerstat.get_daily_income()
 
-kryp = Kryptex()
-kryp.get_hashrates()
+# kryp = Kryptex()
+# kryp.get_hashrates()
 
 # gross = Grossbill()
 # gross.main_page()
+
