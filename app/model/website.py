@@ -35,6 +35,14 @@ class Website():
         except Exception as e:
             self.logger.log('Could not get the element because : ' + e)
         
+    def get_text_excluding_children(self, element):
+        text = element.text
+        children = element.find_elements_by_xpath('./*')
+        for child in children:
+            if element.text == child.text:
+                continue
+            text = text.replace(child.text,'')
+        return text
 
     def get_children_elements(self,element,by=By.XPATH,path='.//*'):
         try:

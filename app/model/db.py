@@ -1,5 +1,6 @@
-from sqlalchemy import Column, Integer, String, MetaData
+from sqlalchemy import Column, Integer, String, MetaData, DateTime
 from sqlalchemy.orm import declarative_base, relationship, Session
+from sqlalchemy.sql import func
 from sqlalchemy.sql.schema import ForeignKey
 from sqlalchemy.sql.sqltypes import Float
 from app import db
@@ -23,7 +24,7 @@ def create_session():
 def truncate_tables():
     with contextlib.closing(db.connect()) as con:
         trans = con.begin()
-        for table in reversed(meta.sorted_tables):
+        for table in reversed(Base.metadata.sorted_tables):
             con.execute(table.delete())
         trans.commit()
 
@@ -46,9 +47,11 @@ class GPU(Base):
 class Income(Base):
     __tablename__ = 'income'
     id = Column(Integer, primary_key=True)
-    gpu_id = Column(Integer,ForeignKey('graphic_cards.id'))
+    gpu_id = Column(Integer,ForeignKey('graphic_cards.id'),nullable=False)
     pool = Column(String)
     amount = Column(Float)
+    time_created = Column(DateTime(timezone=True), server_default=func.now())
+    time_updated = Column(DateTime(timezone=True), onupdate=func.now())
 
     graphic_card = relationship("GPU",back_populates='incomes')
 
@@ -59,9 +62,11 @@ class Income(Base):
 class Hashrate(Base):
     __tablename__ = 'hashrate'
     id = Column(Integer, primary_key=True)
-    gpu_id = Column(Integer,ForeignKey('graphic_cards.id'))
+    gpu_id = Column(Integer,ForeignKey('graphic_cards.id'),nullable=False)
     coin = Column(String)
     hashrate = Column(Float)
+    time_created = Column(DateTime(timezone=True), server_default=func.now())
+    time_updated = Column(DateTime(timezone=True), onupdate=func.now())
 
     graphic_card = relationship("GPU",back_populates='hashrates')
 
@@ -72,10 +77,12 @@ class Hashrate(Base):
 class Deal(Base):
     __tablename__ = 'deal'
     id = Column(Integer, primary_key=True)
-    gpu_id = Column(Integer,ForeignKey('graphic_cards.id'))
+    gpu_id = Column(Integer,ForeignKey('graphic_cards.id'),nullable=False)
     stock = Column(String)
     url = Column(String)
     price = Column(Float)
+    time_created = Column(DateTime(timezone=True), server_default=func.now())
+    time_updated = Column(DateTime(timezone=True), onupdate=func.now())
 
     graphic_card = relationship("GPU",back_populates='deals')
 
@@ -84,4 +91,4 @@ class Deal(Base):
                             self.gpu_id,self.stock, self.url,self.price)
 
 
-Base.metadata.create_all(db)
+# Base.metadata.create_all(db)
